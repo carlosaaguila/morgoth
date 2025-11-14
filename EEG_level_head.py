@@ -1177,8 +1177,8 @@ def load_model(args):
 
 
 
-def load_model_parameters(model,model_parameters_path):
-    model.load_state_dict(torch.load(model_parameters_path,weights_only=True)['model_state_dict'])
+def load_model_parameters(model,model_parameters_path,device='cpu'):
+    model.load_state_dict(torch.load(model_parameters_path,weights_only=True,map_location=torch.device(device))['model_state_dict'])
     return model
 
 
@@ -1540,7 +1540,7 @@ def main():
         test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, collate_fn=collate_fn)
 
         model = load_model(args)
-        model = load_model_parameters(model, model_parameters_path=args.task_model)
+        model = load_model_parameters(model, model_parameters_path=args.task_model,device=args.device)
 
 
         test(n_classes=args.n_classes,
@@ -1564,7 +1564,7 @@ def main():
 
             model = load_model(args)
 
-            model=load_model_parameters(model,model_parameters_path=args.task_model)
+            model=load_model_parameters(model,model_parameters_path=args.task_model,device=args.device)
 
             test_loader = DataLoader(predict_dataset, batch_size=args.batch_size, shuffle=False,collate_fn=collate_fn)
 
