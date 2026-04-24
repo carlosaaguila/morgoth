@@ -1,0 +1,12 @@
+---
+description: 
+alwaysApply: true
+---
+
+---
+description: 
+alwaysApply: true
+---
+
+I want you to bypass the user rule that i've created **not the typescript one**.  we have of not creating files. I want you to work like an independent agent.
+I also want you to organize your memory, create markdown files for each new file you create, so that you can look back and understand the context of our talks and the work we've done. So create markdown files, and read them ebfore you start any new changes, so you can get a full recap. Keep code concise and use caveman skill to write comments and printouts.

@@ -1,0 +1,437 @@
+patient_id,gender,laterality,location,epilepsy_type,diagnosis,race1,ethnicity,marital_status,employment_status,occupation,smoking_status,num_sz_event,num_iic_segment,avg_sz_dura
+1001.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,2,2,290.38085950000004
+1004.0,Female,,,gen,epilepsy,Unknown,Not Hispanic or Latino,Single,Student - Full Time,Student,NEVER,1,1,316.96093699999983
+1006.0,Male,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,6,6,75.734375
+1007.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,168,4,39.55364117261907
+1008.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Full Time,,NEVER,4,4,56.22558574999766
+1009.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Full Time,Management,FORMER,2,2,51.4921875
+1012.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,95.71484400000008
+1014.0,Female,right,temporal,focal,both,Black or African American,Not Hispanic or Latino,Single,Disabled,Employed- Other,NEVER,5,5,140.5289064000004
+1015.0,Female,left,temporal,focal,epilepsy,Some Other Race,Hispanic/Latino,Married,Not Employed,,NEVER,3,3,109.2161456666654
+1019.0,Female,,,,pnes,White,Not Hispanic or Latino,Married,Unknown,,FORMER,1,1,246.63671900000008
+1020.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,FORMER,5,5,108.9781249999999
+1021.0,Female,,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Retired,Declined to Provide,FORMER,3,3,118.45963566666858
+1023.0,Female,bilateral,temporal,focal,both,White,Not Hispanic or Latino,Single,Unknown,,NEVER,11,11,45.46448872727342
+1024.0,Female,left,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Retired,,FORMER,1,1,16.9375
+1026.0,Female,left,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Full Time,Declined to Provide,NEVER,2,2,72.65039049999996
+1027.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,SOME DAYS,1,1,128.15625
+1028.0,Female,,,gen,both,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,7,7,51.23214314285724
+1030.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Disabled,,NEVER,2,2,55.3046875
+1032.0,Male,left,temporal,focal,both,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,14.734375
+1035.0,Female,right,temporal,focal,epilepsy,White,Hispanic/Latino,Married,Part Time,,NEVER,10,10,62.729297099999165
+1038.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,3,3,64.91145833333333
+1039.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,146.390625
+1040.0,Female,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,,NEVER,2,2,89.683594000001
+1041.0,Male,left,temporal,focal,epilepsy,Unknown,Hispanic/Latino,Other,Full Time,,FORMER,4,4,40.16992174999996
+1047.0,Female,right,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,2,2,54.88476599999922
+1056.0,Male,left,frontal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,2,2,49.322265500002686
+1068.0,Male,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,UNKNOWN,10,10,24.89999989999997
+1070.0,Male,,,mixed,,Some Other Race,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,45.417968999998266
+1073.0,Female,right,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,3,4,70.51562500000118
+1075.0,Male,,,,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,4,2,35.88867175000087
+1076.0,Male,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,109.78515599999992
+1077.0,Female,,,gen,epilepsy,Some Other Race,Hispanic/Latino,Other,Student - Full Time,Student,NEVER,1,1,79.66406300000017
+1078.0,Female,bilateral,temporal,focal,,White,Not Hispanic or Latino,Other,Full Time,,NEVER,2,2,70.4609375
+1079.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,Unemployed,FORMER,1,1,404.1328130000038
+1089.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,1,1,14.77343699999983
+1093.0,Female,left,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,Declined to Provide,NEVER,1,1,74.578125
+1094.0,Female,bilateral,,focal,epilepsy,White,Not Hispanic or Latino,Married,Not Employed,,NEVER,1,1,71.67968799999653
+1102.0,Male,,,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,2,2,47.31249999999909
+1105.0,Female,left,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Widowed,Retired,,NEVER,1,1,40.17968800000017
+1108.0,Male,right,,focal,epilepsy,White,Not Hispanic or Latino,Widowed,Retired,,FORMER,2,2,53.42578149999986
+1113.0,Male,left,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Retired,,NEVER,2,2,92.18164049999903
+1114.0,Male,right,frontal,focal,epilepsy,White,Hispanic/Latino,Single,Not Employed,Unemployed,SOME DAYS,1,1,93.44531199999984
+1115.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,3,3,46.69791666666424
+1124.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Divorced,Disabled,Disabled,EVERY DAY,5,5,51.49843760000003
+1132.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,,FORMER,1,1,214.96093800000017
+1134.0,Female,,,,epilepsy,White,Not Hispanic or Latino,Divorced,Disabled,,EVERY DAY,1,1,28.53906199999983
+1136.0,Male,right,,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,3,3,84.73177099999884
+1137.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,,,EVERY DAY,1,1,4.398436999999831
+1139.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,EVERY DAY,5,5,44.44843760000076
+1144.0,Female,left,frontal,focal,epilepsy,Asian,Not Hispanic or Latino,Single,Unknown,,NEVER,7,7,47.0424108571429
+1145.0,Female,left,temporal,focal,epilepsy,White,Hispanic/Latino,Partner,Full Time,,NEVER,3,3,157.32682300000184
+1146.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,EVERY DAY,7,7,126.50781257142701
+1147.0,Male,bilateral,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,EVERY DAY,4,4,48.156249749999006
+1150.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,3,3,59.3528646666673
+1152.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Retired,,NEVER,2,2,37.730468999998266
+1154.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,4,4,97.76367199999912
+1155.0,Male,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Retired,,NEVER,4,4,17.765625250000042
+1156.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Divorced,Full Time,,NEVER,2,2,18.0546875
+1159.0,Female,right,temporal,focal,epilepsy,Black or African American,Patient Declined,Married,Unknown,,NEVER,3,3,66.16666633333564
+1161.0,Male,left,frontal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,4,4,46.421875
+1165.0,Female,,,,epilepsy,White,Not Hispanic or Latino,Married,Not Employed,,FORMER,2,2,80.9257809999981
+1168.0,Female,left,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Married,Unknown,,UNKNOWN,6,6,35.79947916666606
+1169.0,Male,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,6,6,41.36132783333293
+1170.0,Male,,,,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,FORMER,7,7,5.523995857140108
+1174.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,65.761719
+1177.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,60.14843800000017
+1178.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,Disabled,NEVER,3,3,71.18489600000127
+1179.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Self Employed,,NEVER,3,3,149.96354166666666
+1182.0,Female,right,multifocal,focal,epilepsy,Some Other Race,Hispanic/Latino,Domestic Partner,Disabled,,NEVER,6,6,62.266926999999974
+1183.0,Female,right,temporal,focal,both,Black or African American,Not Hispanic or Latino,Single,Disabled,,FORMER,1,1,147.875
+1186.0,Female,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,2,2,78.96875
+1187.0,Male,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,,,NEVER,4,4,127.50195325000097
+1188.0,Female,,,,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,FORMER,1,1,184.1210929999943
+1189.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,3,3,60.34114566666782
+1192.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,Declined to Provide,NEVER,4,4,129.3359375
+1193.0,Female,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,5,5,155.5320309999999
+1194.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,2,2,65.95312500000011
+1196.0,Female,left,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Other,Unknown,,FORMER,2,2,79.32812499999818
+1200.0,Female,,,gen,both,White,Not Hispanic or Latino,Single,,,NEVER,1,1,57.25
+1201.0,Male,right,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,Unemployed,FORMER,2,2,58.55468750000182
+1203.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,7,7,56.16796857142877
+1205.0,Female,right,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,3,3,95.7499999999988
+1216.0,Male,bilateral,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,8,8,41.97656262499913
+1218.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,Declined to Provide,FORMER,2,2,85.5703125
+1219.0,Female,left,multifocal,focal,epilepsy,Some Other Race,Hispanic/Latino,Divorced,Not Employed,,FORMER,3,3,59.11197900000116
+1221.0,Male,left,temporal,focal,both,Unknown,Not Hispanic or Latino,Married,Not Employed,,NEVER,4,4,54.24609374999893
+1222.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,Employed- Other,NEVER,9,9,58.37760422222227
+1223.0,Male,left,temporal,focal,epilepsy,Unknown,Hispanic/Latino,Single,Unknown,,UNKNOWN,1,1,69.140625
+1225.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,6,6,11.945312333333883
+1228.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Part Time,Employed- Other,FORMER,3,3,48.994792000001326
+1231.0,Male,left,temporal,focal,epilepsy,Some Other Race,Not Hispanic or Latino,Married,Not Employed,,EVERY DAY,3,3,75.83203133333154
+1234.0,Male,left,frontal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,23.5234369999962
+1236.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,FORMER,3,3,132.13802100000007
+1241.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,EVERY DAY,8,8,34.294921874999545
+1247.0,Female,,,mixed,both,Unknown,Not Hispanic or Latino,Partner,Student - Full Time,,FORMER,1,1,62.25
+1249.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,44.00781199999983
+1250.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Part Time,,NEVER,3,3,82.09505233333333
+1251.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,,FORMER,7,7,18.289062428571405
+1254.0,Female,,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,,,NEVER,7,7,66.84374999999844
+1255.0,Male,left,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,79.8242190000019
+1256.0,Male,left,temporal,focal,epilepsy,White,Patient Declined,Married,Retired,,FORMER,2,2,26.089843999998266
+1257.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,FORMER,2,2,40.51953100000173
+1258.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Separated,Full Time,Employed- Other,FORMER,1,1,20.05468799999653
+1263.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,1,1,112.234375
+1264.0,Female,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,98.44531266666672
+1268.0,Male,bilateral,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,71.96093733333328
+1273.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,Declined to Provide,NEVER,8,8,67.9282227500002
+1274.0,Female,right,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,5,5,87.86484380000256
+1277.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Widowed,Disabled,,NEVER,7,7,74.79799071428455
+1284.0,Male,right,,mixed,epilepsy,Black or African American,Not Hispanic or Latino,Single,Student - Full Time,,EVERY DAY,1,1,18.507813000003807
+1289.0,Male,bilateral,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Divorced,Full Time,,NEVER,3,3,27.903645999998844
+129.0,Female,left,frontal,focal,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,2,2,50.15234400000003
+1290.0,Male,,,focal,both,White,Not Hispanic or Latino,Partner,Disabled,,FORMER,1,1,76.05468700000347
+1291.0,Female,left,frontal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,,NEVER,5,5,41.700000000000045
+1293.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,1,1,87.0625
+1294.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,139.9375
+1297.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,2,2,167.57617150000078
+1301.0,Male,,temporal,focal,both,White,Not Hispanic or Latino,Single,Not Employed,,SOME DAYS,1,1,85.1875
+1306.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Retired,,FORMER,5,5,106.44375000000005
+1308.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,FORMER,3,3,12.773437666666725
+1309.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Divorced,Retired,,NEVER,3,3,133.06640599999932
+1310.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,FORMER,2,2,52.699219000001904
+1314.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Divorced,Disabled,,NEVER,2,2,59.410156500000085
+1317.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,Employed- Other,NEVER,3,3,33.71223933333507
+1320.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,2,2,625.3085934999999
+1322.0,Male,right,,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,LIGHT SMOKER,2,2,104.34960950000004
+1325.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Full Time,,NEVER,1,1,23.140625
+1327.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,2,2,56.45312499999818
+1332.0,Female,left,frontal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,17,17,41.11075376470527
+1333.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,4,4,128.10449249999874
+1336.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Full Time,,NEVER,1,1,81.753907
+1337.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,UNKNOWN,6,6,103.20247383333542
+1338.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,1,1,64.05468699999983
+1343.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Part Time,,NEVER,10,10,26.024999899999965
+1344.0,Female,left,temporal,focal,epilepsy,Asian,Not Hispanic or Latino,Other,Unknown,,NEVER,2,2,82.01953149999827
+1347.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,,EVERY DAY,2,2,233.4882810000017
+1350.0,Female,left,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Married,Disabled,Declined to Provide,NEVER,3,3,185.93880199999816
+1351.0,Male,right,temporal,focal,epilepsy,Some Other Race,Hispanic/Latino,Single,Not Employed,,NEVER,1,1,62.75
+1357.0,Male,,,mixed,epilepsy,White,Not Hispanic or Latino,Divorced,Full Time,,NEVER,3,3,79.58593766666552
+1359.0,Female,right,temporal,focal,both,Black or African American,Not Hispanic or Latino,Single,Student - Part Time,,NEVER,10,10,70.70859370000144
+1361.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,NEVER,4,4,80.43847649999952
+1362.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,1,1,71.4492190000019
+1366.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,NEVER,1,1,80.49218699999983
+1372.0,Male,left,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,4,4,93.35742175000088
+1373.0,Female,bilateral,,focal,both,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,3,3,63.18229166666666
+1384.0,Female,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,NEVER,4,4,98.36914049999872
+1385.0,Male,right,frontal,focal,epilepsy,Some Other Race,Hispanic/Latino,Single,Full Time,Sales,FORMER,1,1,33.44531300000017
+1389.0,Female,,,mixed,epilepsy,Patient Declined,Patient Declined,Single,Unknown,,NEVER,1,1,14.05468699999983
+1390.0,Male,left,frontal,mixed,epilepsy,Unknown,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,4,4,68.625
+1391.0,Female,left,frontal,focal,epilepsy,Asian,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,1,1,3.71875
+1394.0,Male,,,focal,epilepsy,Black or African American,Hispanic/Latino,Separated,Part Time,,NEVER,2,2,213.70117200000092
+1396.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,151.7265619999962
+1397.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,92.02148399999714
+1399.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,4,4,85.25195325000095
+1403.0,Male,left,temporal,focal,epilepsy,Unknown,Patient Declined,Divorced,Not Employed,,SOME DAYS,1,1,156.625
+1408.0,Female,bilateral,multifocal,focal,epilepsy,White,Patient Declined,Single,Disabled,,NEVER,6,6,75.70963550000003
+1414.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,NEVER,2,2,145.9375
+1415.0,Female,,,,pnes,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,56.46875
+1418.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Retired,,FORMER,1,1,92.92968700000006
+1419.0,Male,left,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,50.61718800000381
+1421.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Retired,,EVERY DAY,3,3,39.69791666666666
+1423.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,57.6875
+1431.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,,NEVER,2,2,160.218749499998
+1432.0,Male,bilateral,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Married,Unknown,,EVERY DAY,3,3,55.45052100000006
+1433.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,FORMER,2,2,13.667969000001904
+1434.0,Male,left,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Single,Part Time,,NEVER,1,1,22.3125
+1435.0,Male,,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,4,4,68.79687499999818
+1439.0,Male,left,,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,8,8,28.57031262500004
+1441.0,Female,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,,,NEVER,9,9,67.70442711111153
+1446.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,2,2,40.777344000000085
+1450.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,Disabled,FORMER,3,3,114.42708333333331
+1452.0,Female,,,,pnes,White,Not Hispanic or Latino,Married,Homemaker,,NEVER,2,2,44.0
+1453.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,FORMER,6,6,76.45963566666553
+1457.0,Male,,,gen,both,Some Other Race,Not Hispanic or Latino,Single,Unknown,,FORMER,1,1,69.25781299999971
+1460.0,Male,left,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Married,Full Time,,SOME DAYS,5,5,50.3062502000008
+1461.0,Female,right,temporal,focal,,Black or African American,Not Hispanic or Latino,Single,Not Employed,,FORMER,2,2,43.503906500000085
+1462.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,3,3,75.39322933333096
+1467.0,Male,bilateral,temporal,focal,epilepsy,American Indian or Alaskan Native,Not Hispanic or Latino,Single,Full Time,,FORMER,5,5,120.5375
+1468.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Retired,,EVERY DAY,1,1,21.875
+1471.0,Female,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,,NEVER,3,3,28.216145666667824
+1474.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Widowed,Retired,,FORMER,1,1,14.42968800000017
+1477.0,Male,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,5,5,25.210937600000037
+1478.0,Female,bilateral,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,1,1,35.5625
+1480.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,71.28515600000173
+1481.0,Male,,,mixed,epilepsy,Unknown,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,26.570313000003807
+1485.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,1,1,21.78125
+1488.0,Female,,,,,White,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,184.26953099999992
+1499.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,Declined to Provide,FORMER,2,2,121.77343750000182
+1503.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,1,1,73.72656199999983
+1511.0,Female,right,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Divorced,Retired,,FORMER,2,2,143.65625
+1513.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,2,2,55.47656199999983
+1517.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Divorced,,,NEVER,1,1,4.523436999999831
+1518.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,34.8203125
+1534.0,Female,bilateral,,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,,NEVER,5,5,102.36093739999995
+1535.0,Male,,,gen,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,150.95703100000537
+1540.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,2,2,16.2890625
+1542.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,6,6,25.31510433333339
+1545.0,Male,right,temporal,focal,epilepsy,Patient Declined,Not Hispanic or Latino,Single,Unknown,,FORMER,7,7,45.37276785714183
+1597.0,Male,,temporal,focal,,White,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,410.59375
+1609.0,Male,,,focal,,Black or African American,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,1,1,194.32031199999983
+1615.0,Male,,,focal,,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,2.234375
+1646.0,Male,left,temporal,focal,,Black or African American,Not Hispanic or Latino,Single,Full Time,,FORMER,3,3,61.889322666665976
+1655.0,Male,left,temporal,focal,,Black or African American,Not Hispanic or Latino,Single,Part Time,,FORMER,10,10,99.74414049999886
+1677.0,Female,right,temporal,focal,,Black or African American,Not Hispanic or Latino,Single,Unknown,,NEVER,2,2,23.619141000000013
+1680.0,Male,,temporal,focal,,Black or African American,Not Hispanic or Latino,Single,Not Employed,,FORMER,3,3,111.82812500000061
+1687.0,Female,bilateral,,focal,,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,4,4,77.08886749999874
+1699.0,Female,,,mixed,,Black or African American,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,3,3,24.66145833333333
+1709.0,Female,left,temporal,focal,,White,Not Hispanic or Latino,Married,Full Time,,NEVER,9,9,38.747395777778166
+1712.0,Female,,,,,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,59.46875
+1715.0,Male,,,,,White,Not Hispanic or Latino,Married,Disabled,,NEVER,1,1,45.16406299999653
+1725.0,Male,bilateral,temporal,focal,,Asian,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,189.17968800000017
+1750.0,Male,left,temporal,focal,,White,Not Hispanic or Latino,Single,Disabled,Unemployed,NEVER,1,1,75.859375
+1757.0,Male,right,temporal,focal,,Black or African American,Not Hispanic or Latino,Separated,Disabled,,FORMER,6,6,185.6822915000006
+176.0,Male,bilateral,temporal,focal,epilepsy,Unknown,Hispanic/Latino,Single,Disabled,,NEVER,2,4,64.046875
+1774.0,Male,,,,,White,Not Hispanic or Latino,Single,Full Time,,NEVER,1,1,51.089843000001565
+1805.0,Female,bilateral,temporal,focal,,White,Not Hispanic or Latino,Married,Disabled,Disabled,FORMER,7,7,32.99386171428601
+1844.0,Male,,,,,White,Not Hispanic or Latino,Single,Unknown,,NEVER,3,3,223.53645833333334
+1874.0,Male,right,temporal,focal,,White,Not Hispanic or Latino,Married,Full Time,,NEVER,3,3,67.49479166666553
+1900.0,Male,left,temporal,focal,,White,Not Hispanic or Latino,Separated,Part Time,,EVERY DAY,8,8,211.2460937500009
+195.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,2,2,71.5507815000019
+1979.0,Female,,,,,Black or African American,Not Hispanic or Latino,Single,Not Employed,Employed- Other,NEVER,1,1,105.765625
+2039.0,Male,right,temporal,focal,,White,Not Hispanic or Latino,Single,Not Employed,Disabled,FORMER,2,2,58.175781499998266
+2061.0,Male,,,,,White,Not Hispanic or Latino,Single,Part Time,,NEVER,1,1,68.0
+2073.0,Female,left,,focal,,White,Not Hispanic or Latino,Single,Unknown,,NEVER,16,16,29.420898374999556
+2074.0,Male,,,,,White,Not Hispanic or Latino,Single,Unknown,,FORMER,2,2,39.34375049999835
+2076.0,Male,,,,,White,Not Hispanic or Latino,Single,Full Time,,FORMER,9,9,48.06510422222184
+2077.0,Female,left,temporal,focal,,White,Not Hispanic or Latino,Married,Not Employed,,FORMER,1,1,57.80468800000017
+2078.0,Male,,,,,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,2,2,274.5507809999999
+2080.0,Female,left,temporal,focal,,White,Not Hispanic or Latino,Married,Unknown,,NEVER,7,7,26.045200857142845
+2091.0,Female,,,,,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,73.5390625
+2094.0,Male,,,gen,,White,Not Hispanic or Latino,Married,Not Employed,,NEVER,1,1,108.9960940000019
+2096.0,Female,,,gen,,Unknown,Not Hispanic or Latino,Single,Unknown,,NEVER,1,1,89.78906200000347
+2098.0,Male,left,temporal,focal,,White,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,22.32031199999983
+2105.0,Male,,,,,Unknown,Patient Declined,Single,,,NEVER,5,5,41.19843740000069
+2109.0,Female,,,,,Unknown,Not Hispanic or Latino,Married,Not Employed,Unemployed,NEVER ASSESSED,1,1,61.636719000001904
+2113.0,Female,left,temporal,focal,,Unknown,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,13,13,35.85276446153903
+212.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Widowed,Full Time,,FORMER,1,1,163.0
+2121.0,Female,bilateral,multifocal,focal,,Some Other Race,Hispanic/Latino,Single,Not Employed,,NEVER,8,8,68.482421875
+2130.0,Female,left,temporal,focal,,White,Patient Declined,Married,Unknown,,EVERY DAY,3,3,43.46093733333328
+2131.0,Male,,,,,White,Not Hispanic or Latino,Single,Disabled,,FORMER,1,1,249.77343700000347
+2132.0,Female,,,,,White,Not Hispanic or Latino,Married,Part Time,Sales,NEVER,5,5,81.109375
+2137.0,Male,right,temporal,focal,,White,Not Hispanic or Latino,Single,Disabled,Employed- Other,EVERY DAY,8,8,118.08447250000064
+224.0,Female,left,temporal,focal,both,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,69.046875
+229.0,Male,right,frontal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,93.4609369999962
+254.0,Male,left,temporal,mixed,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,2,2,21.0625
+26.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,1,1,104.86718799999652
+264.0,Female,,,,,White,Not Hispanic or Latino,Single,Part Time,,NEVER,1,1,36.875
+267.0,Female,left,temporal,focal,,White,Not Hispanic or Latino,Married,Disabled,,NEVER,1,1,71.734375
+291.0,Male,,,mixed,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,3,3,19.671875
+3.0,Female,left,multifocal,mixed,epilepsy,Unknown,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,96.2447919999989
+316.0,Male,,,,,White,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,65.375
+320.0,Male,left,temporal,focal,,Black or African American,Not Hispanic or Latino,Married,Disabled,,FORMER,1,1,38.27343699999983
+328.0,Female,,,focal,epilepsy,East Indian,Not Hispanic or Latino,Married,Retired,,NEVER,1,1,198.24218700000347
+350.0,Male,bilateral,multifocal,focal,both,White,Not Hispanic or Latino,Single,Disabled,Disabled,NEVER,1,1,155.47656300000017
+387.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,5,5,41.401562600000034
+389.0,Female,,,mixed,epilepsy,White,Not Hispanic or Latino,Divorced,Unknown,,EVERY DAY,1,1,67.32031199999983
+397.0,Female,,,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,87.078125
+398.0,Female,,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Disabled,,NEVER,1,1,45.703125
+402.0,Female,,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,8,8,151.40722649999952
+404.0,Female,,,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,1,1,146.96875
+406.0,Female,right,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,3,3,127.80729166666545
+412.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,2,2,73.32421849999992
+420.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,FORMER,5,5,32.7671873999996
+428.0,Female,left,temporal,focal,both,White,Not Hispanic or Latino,Married,Full Time,,NEVER,3,3,16.820312666667935
+447.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,Unemployed,NEVER,17,17,46.526424823529155
+456.0,Male,right,frontal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,FORMER,5,5,49.27421859999886
+460.0,Female,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,6,6,62.77994766666658
+474.0,Female,,,mixed,both,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,20.515625
+475.0,Female,bilateral,temporal,focal,epilepsy,Some Other Race,Not Hispanic or Latino,Single,Full Time,,NEVER,3,3,144.70572933333338
+477.0,Male,,,,pnes,White,Not Hispanic or Latino,Single,Full Time,,FORMER,1,1,16.33593699999983
+5.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,7,7,36.91183028571426
+504.0,Male,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Not Employed,,FORMER,3,3,119.64843733333448
+506.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,1,1,424.078125
+515.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,SOME DAYS,3,3,31.22916666666788
+527.0,Male,right,frontal,focal,epilepsy,Asian,Not Hispanic or Latino,Married,Disabled,,NEVER,2,2,48.93359350000173
+531.0,Male,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,6,6,76.84114600000005
+560.0,Female,right,frontal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Separated,Full Time,,NEVER,1,1,92.3984369999962
+562.0,Female,bilateral,,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,4,4,117.49804675000088
+563.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Separated,Disabled,,LIGHT SMOKER,2,2,188.95703099999992
+564.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Retired,,EVERY DAY,1,1,30.78125
+565.0,Female,right,temporal,focal,both,Black or African American,Not Hispanic or Latino,Married,Disabled,,SOME DAYS,8,8,75.49804687499955
+566.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,EVERY DAY,2,2,64.56640649999827
+571.0,Female,,,gen,epilepsy,Black or African American,Not Hispanic or Latino,Married,Not Employed,,NEVER,2,2,64.77343749999818
+574.0,Female,,,,pnes,Black or African American,Not Hispanic or Latino,Married,Retired,,FORMER,2,2,39.87695300000087
+575.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Retired,,FORMER,2,2,64.09375050000017
+579.0,Male,,,gen,both,White,Not Hispanic or Latino,Single,Disabled,Disabled,NEVER,2,2,84.55078100000173
+580.0,Male,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,1,1,152.328125
+581.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,80.5546875
+585.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,Student,NEVER,3,3,39.84895866666557
+592.0,Female,left,temporal,focal,both,Black or African American,Not Hispanic or Latino,Married,Full Time,,NEVER,1,1,187.37890699999843
+594.0,Female,left,temporal,focal,both,White,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,19,19,95.14925994736825
+596.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Retired,,FORMER,1,1,7.46875
+597.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Divorced,Self Employed,,NEVER,5,5,40.49999980000066
+598.0,Female,left,,focal,epilepsy,Unknown,Hispanic/Latino,Single,Disabled,,NEVER,2,2,104.9296875
+599.0,Male,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,Employed- Other,EVERY DAY,21,24,72.47600438095226
+600.0,Male,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Retired,Retired,FORMER,1,1,101.375
+607.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,4,4,66.24218750000091
+609.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,5,5,43.362499799999206
+612.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Patient Declined,Widowed,Retired,,FORMER,3,3,52.71484366666785
+613.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Married,Not Employed,,SOME DAYS,1,1,65.546875
+615.0,Female,,,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,EVERY DAY,1,1,65.921875
+619.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,78.890625
+620.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,SOME DAYS,3,3,24.546874666667765
+627.0,Male,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,101.60156299999652
+629.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,6,6,125.00455733333426
+630.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,Employed- Other,NEVER,5,5,58.878125
+635.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,2,2,29.853515499999048
+638.0,Female,,,gen,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,48.60156300000017
+640.0,Male,left,frontal,mixed,epilepsy,White,Not Hispanic or Latino,Single,Unknown,,NEVER,2,2,76.42773450000459
+642.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,Student,NEVER,3,3,52.60677066666661
+647.0,Male,,,focal,,Black or African American,Not Hispanic or Latino,Married,Not Employed,,NEVER,5,5,48.4375
+655.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Disabled,,FORMER,5,5,53.59062480000066
+660.0,Female,left,temporal,focal,epilepsy,Asian,Not Hispanic or Latino,Single,Unknown,,NEVER,3,3,91.28906233333208
+664.0,Male,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,FORMER,5,5,67.55937500000036
+673.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Part Time,,FORMER,5,5,70.89374999999927
+674.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,FORMER,1,1,36.08593700000006
+675.0,Male,right,temporal,focal,epilepsy,Unknown,Hispanic/Latino,Single,Disabled,,EVERY DAY,1,1,63.97656300000017
+679.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Full Time,Employed- Other,NEVER,3,3,156.921875
+683.0,Female,right,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,Disabled,FORMER,2,2,86.57421899999827
+684.0,Female,,,gen,epilepsy,White,Patient Declined,Single,Not Employed,,FORMER,2,2,69.8476565000019
+689.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,2,2,51.6484375
+690.0,Female,left,multifocal,focal,epilepsy,,Hispanic/Latino,Partner,Full Time,,NEVER,3,3,52.281250000001215
+692.0,Female,bilateral,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,Student,NEVER,9,9,55.35590288888812
+693.0,Male,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,FORMER,2,2,42.9921875
+694.0,Male,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,23.609375
+697.0,Female,left,,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,,NEVER,4,4,45.98632825000004
+699.0,Male,,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,Unemployed,NEVER,11,11,87.53551145454549
+703.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,2,1,18.26562499999818
+707.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Divorced,Retired,,FORMER,2,2,40.734375
+709.0,Female,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,Disabled,FORMER,15,15,48.072396000000296
+713.0,Female,,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,Employed- Other,NEVER,1,1,13.242188000003807
+715.0,Male,,,,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,3,3,234.14322933333335
+720.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Unknown,Declined to Provide,NEVER,6,6,56.0123694999996
+721.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,Unemployed,NEVER,2,2,210.0039059999981
+724.0,Female,bilateral,temporal,focal,epilepsy,Some Other Race,Patient Declined,Single,Disabled,,NEVER,6,6,48.864583333330906
+727.0,Female,,,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,2,2,291.3652345000009
+730.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,Employed- Other,NEVER,6,6,62.79557300000064
+734.0,Male,left,temporal,focal,epilepsy,Unknown,Hispanic/Latino,Single,Not Employed,,FORMER,3,3,72.36718733333207
+735.0,Female,,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Widowed,Disabled,,NEVER,7,7,107.4587054285704
+742.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,7,5,51.0904015714285
+743.0,Male,right,frontal,mixed,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,HEAVY SMOKER,1,1,44.953125
+744.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,3,3,68.2473956666666
+749.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,FORMER,8,8,21.802734250000412
+75.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Divorced,Disabled,,FORMER,1,1,58.25
+752.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,4,4,135.28222649999907
+753.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,100.87239566666652
+754.0,Female,left,,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,7,7,23.216517714285143
+757.0,Female,right,,focal,epilepsy,White,Not Hispanic or Latino,Widowed,Disabled,Unemployed,NEVER,2,2,41.988281499998266
+759.0,Female,right,temporal,focal,epilepsy,Some Other Race,Not Hispanic or Latino,Married,Not Employed,Unemployed,NEVER,10,11,48.99960940000018
+762.0,Female,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Not Employed,,FORMER,2,2,218.3242190000019
+763.0,Female,right,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Married,Part Time,,NEVER,3,3,52.074219000000056
+764.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,3,3,98.70833333333331
+767.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Widowed,Retired,,FORMER,5,5,70.90859360000032
+770.0,Male,right,temporal,focal,both,Black or African American,Not Hispanic or Latino,Single,Disabled,,FORMER,1,1,36.703125
+771.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Widowed,Disabled,,EVERY DAY,3,3,20.82031233333328
+774.0,Female,left,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,4,4,80.01171900000008
+776.0,Female,,frontal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,47.75781300000017
+778.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Divorced,Self Employed,,FORMER,1,1,22.46875
+780.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Retired,,NEVER,1,1,7.726562000003469
+781.0,Female,,,gen,epilepsy,White,Hispanic/Latino,Single,Student - Full Time,,NEVER,1,1,12.101562999996531
+786.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Disabled,Disabled,FORMER,7,7,69.7265624285714
+792.0,Female,right,temporal,focal,both,Asian,Not Hispanic or Latino,Married,Not Employed,,NEVER,1,1,610.078125
+794.0,Male,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,Health Occupations,NEVER,5,5,45.5875
+796.0,Male,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,EVERY DAY,1,1,50.171875
+797.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,90.90624966666776
+801.0,Male,right,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,,NEVER,4,4,106.98535175000144
+802.0,Male,right,temporal,focal,epilepsy,Some Other Race,Not Hispanic or Latino,Married,Full Time,Student,EVERY DAY,2,2,58.886719000001904
+803.0,Female,left,frontal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,60.57031233333449
+804.0,Male,left,,focal,epilepsy,,,,,,,2,2,11.703125
+813.0,Male,right,temporal,focal,epilepsy,Some Other Race,Not Hispanic or Latino,Single,Disabled,Employed- Other,EVERY DAY,3,3,346.2682290000012
+820.0,Female,,,,pnes,White,Not Hispanic or Latino,Single,Self Employed,,EVERY DAY,1,1,2.882812999996532
+823.0,Male,right,frontal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,1,1,50.703125
+835.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Disabled,,SOME DAYS,1,1,17.89843800000017
+836.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Not Employed,,EVERY DAY,1,1,80.75781299999653
+838.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,1,1,87.84375
+841.0,Female,,,,pnes,White,Not Hispanic or Latino,Married,Disabled,,EVERY DAY,1,1,75.3125
+847.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Retired,,NEVER,1,1,19.16406299999653
+852.0,Male,right,temporal,focal,epilepsy,Unknown,Hispanic/Latino,Separated,Unknown,,NEVER,5,5,64.96718739999923
+855.0,Female,,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,FORMER,2,2,74.57031250000182
+862.0,Female,,,,both,White,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,3,3,28.19270833333333
+866.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Divorced,Not Employed,,NEVER,3,3,24.890625
+868.0,Female,left,frontal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,NEVER,3,3,39.94791633333443
+869.0,Female,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,,NEVER,5,5,80.75937479999996
+870.0,Female,,,,pnes,White,Not Hispanic or Latino,Married,Self Employed,,NEVER,1,1,89.53906200000347
+872.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,EVERY DAY,3,3,190.62630266666505
+879.0,Male,right,temporal,focal,epilepsy,,,Single,Full Time,Employed- Other,SOME DAYS,3,3,120.15364600000127
+880.0,Female,,,gen,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,155.27343799999653
+881.0,Female,right,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,5,5,48.60781239999924
+882.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Partner,Full Time,Employed- Other,EVERY DAY,9,9,39.15624999999879
+883.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,2,2,78.1171875
+890.0,Female,left,temporal,focal,epilepsy,Asian,Not Hispanic or Latino,Domestic Partner,Unknown,,FORMER,13,13,41.720853461538496
+891.0,Male,left,multifocal,mixed,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,3,6,83.46354133333323
+892.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,Declined to Provide,NEVER,5,5,35.76874980000139
+896.0,Female,right,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,,FORMER,5,5,207.69843760000003
+904.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Unknown,Declined to Provide,FORMER,4,4,24.601562249999915
+905.0,Female,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,Employed- Other,NEVER,2,2,122.09375
+909.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,EVERY DAY,4,4,42.0644532500001
+910.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,2,2,88.97656200000347
+913.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,,EVERY DAY,17,17,64.01011023529367
+915.0,Male,left,frontal,focal,epilepsy,White,Not Hispanic or Latino,Single,Student - Part Time,,NEVER,2,2,117.203125
+916.0,Female,right,,focal,,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,1,1,116.640625
+917.0,Male,left,multifocal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,282.61718800000017
+918.0,Female,,,gen,epilepsy,White,Not Hispanic or Latino,Single,,Employed- Other,NEVER,1,1,8.34375
+92.0,Male,left,multifocal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Retired,,FORMER,2,2,189.1132815000019
+920.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,3,3,73.93229200000133
+921.0,Female,,,,epilepsy,White,Not Hispanic or Latino,Single,Student - Full Time,,NEVER,1,1,58.50781200000347
+923.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Divorced,Retired,,EVERY DAY,3,3,92.29427100000127
+924.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Full Time,,NEVER,3,3,54.79166700000254
+925.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,1,1,92.66406300000016
+927.0,Female,,,,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,SOME DAYS,1,1,38.67968800000381
+929.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Unknown,,SOME DAYS,12,12,72.53613266666709
+931.0,Female,left,temporal,focal,both,,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,5,5,75.1687498000014
+933.0,Male,bilateral,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Disabled,,NEVER,1,1,78.34375
+941.0,Male,left,,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,3,3,99.03645833333576
+943.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Not Employed,,FORMER,4,4,180.128906500001
+944.0,Female,right,temporal,focal,both,White,Not Hispanic or Latino,Married,Disabled,Disabled,EVERY DAY,3,3,78.72265633333154
+946.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Retired,Retired,FORMER,2,2,53.871093999998266
+948.0,Male,bilateral,multifocal,mixed,epilepsy,White,Not Hispanic or Latino,Single,Part Time,,NEVER,2,2,86.65625
+950.0,Female,left,temporal,focal,epilepsy,Patient Declined,Hispanic/Latino,Divorced,Homemaker,,EVERY DAY,6,6,78.35546883333336
+954.0,Male,right,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Not Employed,Employed- Other,NEVER,7,7,72.61439742857199
+958.0,Male,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Married,Disabled,,NEVER,3,3,28.26041666666788
+960.0,Female,,,gen,epilepsy,Black or African American,Not Hispanic or Latino,Single,Full Time,,NEVER,14,14,12.989397357142868
+962.0,Female,,,mixed,epilepsy,White,Not Hispanic or Latino,Single,Disabled,Disabled,NEVER,11,11,146.91690327272656
+964.0,Female,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,NEVER,2,2,61.71874950000166
+967.0,Female,,,,,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,21,21,23.936942000000094
+972.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,FORMER,1,1,50.96093700000347
+973.0,Female,left,temporal,focal,epilepsy,Unknown,Not Hispanic or Latino,Married,Not Employed,,NEVER,4,4,24.769530999999915
+98.0,Female,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Married,Retired,,NEVER,1,1,57.234375
+981.0,Female,left,temporal,focal,both,Black or African American,Not Hispanic or Latino,Single,Full Time,,EVERY DAY,2,2,92.0429690000019
+983.0,Male,bilateral,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Not Employed,,FORMER,5,5,61.751562200002084
+985.0,Male,left,temporal,focal,epilepsy,White,Not Hispanic or Latino,Single,Full Time,,NEVER,5,5,74.86093760000222
+986.0,Female,left,temporal,focal,epilepsy,Black or African American,Not Hispanic or Latino,Single,Disabled,,NEVER,4,4,20.90624975000173
+991.0,Female,bilateral,temporal,focal,epilepsy,HLW-Hispanic Latino/White,Not Hispanic or Latino,Married,Not Employed,Unemployed,NEVER,3,3,93.00651033333207
+992.0,Male,,,gen,both,White,Not Hispanic or Latino,Single,Part Time,,EVERY DAY,2,2,190.9921875
+993.0,Male,bilateral,temporal,mixed,epilepsy,White,Not Hispanic or Latino,Married,Full Time,,FORMER,12,12,66.45768241666671
+996.0,Male,bilateral,temporal,focal,both,White,Not Hispanic or Latino,Single,Disabled,Disabled,FORMER,31,34,46.72769664516142

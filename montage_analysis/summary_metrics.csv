@@ -1,0 +1,2 @@
+montage,windowed_f1,windowed_sensitivity,windowed_precision,windowed_n_pos,windowed_n_total,file_f1,file_sensitivity,file_precision,file_n_pos,file_n_total,n_errors
+full,0.6338028169014085,0.5357142857142857,0.7758620689655172,84,1013,1.0,1.0,1.0,1,2,0
