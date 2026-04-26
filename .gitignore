@@ -2,3 +2,4 @@ data/interictal/*
 data/seizure/*
 montage_analysis/results/*
 montage_analysis/results_single/*
+montage_analysis/results_interictal/*

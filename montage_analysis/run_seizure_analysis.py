@@ -551,6 +551,15 @@ def main():
                          '--workers 4 --torch_threads 3 is a reasonable starting point.')
     ap.add_argument('--torch_threads', type=int, default=0,
                     help='BLAS/torch threads per worker. 0 = auto (cores // workers).')
+    ap.add_argument('--complete_patients', action='store_true',
+                    help='Only process seizure clips for patients (EMU####) that '
+                         'already have at least one cached montage JSON in results/. '
+                         'Skips iic side entirely. Use to finish off partially-done '
+                         'patients without expanding the cohort.')
+    ap.add_argument('--skip_summary', action='store_true',
+                    help='Skip per-montage rollup CSVs and summary_metrics.csv. '
+                         'Use when resuming partial runs — only fills in missing '
+                         'per-file JSON caches + windowed CSVs in results/<montage>/.')
     args = ap.parse_args()
 
     device = torch.device(args.device)
@@ -576,6 +585,26 @@ def main():
                         for f in os.listdir(sz_dir)  if f.endswith('.edf')])
     iic_files = sorted([os.path.join(iic_dir, f)
                         for f in os.listdir(iic_dir) if f.endswith('.edf')])
+
+    # caveman: complete_patients = only finish patients we already touched
+    if args.complete_patients:
+        # scan results/ for any cached <montage>_<EMU####_seizure_N>.edf.json
+        pat_re = re.compile(r'(EMU\d+)_seizure_\d+\.edf\.json$')
+        known: set[str] = set()
+        try:
+            for fn in os.listdir(results_dir):
+                m = pat_re.search(fn)
+                if m:
+                    known.add(m.group(1))
+        except FileNotFoundError:
+            pass
+        log.info(f"--complete_patients: {len(known)} patients have prior results")
+        sz_files = [p for p in sz_files
+                    if os.path.basename(p).split('_seizure_')[0] in known]
+        iic_files = []   # focus only on seizure side for completion
+        log.info(f"--complete_patients: {len(sz_files)} seizure clips queued "
+                 f"(iic side disabled)")
+
     if args.max_files:
         sz_files  = sz_files[:args.max_files]
         iic_files = iic_files[:args.max_files]
@@ -663,6 +692,12 @@ def main():
                     log.exception(f"worker failed: {e}")
 
     # ── per-montage results ───────────────────────────────────────────────────
+    if args.skip_summary:
+        log.info("--skip_summary: skipping per-montage rollup CSVs and summary.")
+        log.info(f"\n{'='*60}\nDone (no summary written). "
+                 f"Windowed CSVs + JSON caches are in {results_dir}.")
+        return
+
     summary_rows = []
     for m in montages:
         a      = accum[m]

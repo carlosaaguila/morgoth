@@ -1,6 +1,6 @@
 # Morgoth Montage Analysis — Run Log
 
-**Started:** 2026-04-23 17:56:26
+**Started:** 2026-04-26 15:57:50
 
 **Dataset:** /Users/carlosaguila/Documents/Projects/morgoth/data/seizure  |  /Users/carlosaguila/Documents/Projects/morgoth/data/interictal
 
@@ -9,8 +9,8 @@
 ---
 
 ## Files
-- Seizure: 1683
-- Interictal: 1527
+- Seizure: 295
+- Interictal: 0
 
 ## Montages (18)
 ```json
