@@ -139,8 +139,15 @@ def compute_montage_metrics(montage, results_dir, results_iic_dir, verbose=False
             auc_pred.extend(pred)
             auc_prob.extend(prob)
 
-        # include IIC clips in AUC window concatenation (matches get_metrics.py)
+        # include IIC clips in segment_metrics and AUC windows (matches get_metrics.py)
         for fname, label, pred, prob in patient_iic_clips.get(pid, []):
+            try:
+                m = compute_metrics(label, pred, prob, stride=STRIDE)
+                m['file'] = fname
+                segment_metrics.append(m)
+            except Exception as e:
+                print(f"  [{montage}] patient metrics error iic {fname}: {e}")
+                continue
             auc_label.extend(label)
             auc_pred.extend(pred)
             auc_prob.extend(prob)
