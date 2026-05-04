@@ -8,8 +8,9 @@ Mirrors the patient-grouped aggregation in example_model/get_metrics.py:
   3. Override recall_event, fp, precision_event, f1_event from per-clip averages
   4. Average patient-level metrics across patients → montage summary
 
-Interictal clips appear in the per-file CSV but are not used in the
-patient-level metric computation (matching get_metrics.py).
+Interictal clips are included in the patient-level AUC window concatenation
+for patients that have seizure clips (matching get_metrics.py). They also
+appear in the per-file CSV.
 
 Outputs:
   montage_metrics.csv          — one row per montage
