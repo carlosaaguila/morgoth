@@ -282,10 +282,11 @@ def apply_montage_and_infer(full_sig, keep_channels, available,
 def per_second_gt(label_df, orig_fs, n_windows):
     labels  = label_df['labels'].values
     fs_int  = int(round(orig_fs))
+    win_samp = int(round(WIN_SEC * orig_fs))  # full 10-second window at orig_fs
     gt      = np.zeros(n_windows, dtype=int)
     for i in range(n_windows):
         s = i * fs_int
-        e = min(s + fs_int, len(labels))
+        e = min(s + win_samp, len(labels))    # check full window, not just 1 stride second
         if e > s and labels[s:e].max() > 0:
             gt[i] = 1
     return gt
