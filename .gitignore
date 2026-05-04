@@ -3,3 +3,7 @@ data/seizure/*
 montage_analysis/results/*
 montage_analysis/results_single/*
 montage_analysis/results_interictal/*
+montage_analysis/results_gpu/*
+montage_analysis/results_interictal_gpu/*
+__pycache__/*
+.DS_Store
