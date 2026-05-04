@@ -1508,14 +1508,17 @@ def main():
 
         optimizer = optim.Adam(model.parameters(), lr=args.lr)
 
-        train_loader_raw = DataLoader(train_dataset_raw, batch_size=args.batch_size, shuffle=True, collate_fn=collate_fn)
+        _pin = str(args.device) != 'cpu'
+        train_loader_raw = DataLoader(train_dataset_raw, batch_size=args.batch_size, shuffle=True, collate_fn=collate_fn,
+                                      num_workers=4, pin_memory=_pin)
 
         train_loader_transform = DataLoader(train_dataset_transform, batch_size=args.batch_size, shuffle=True,
-                                      collate_fn=collate_fn)
+                                      collate_fn=collate_fn, num_workers=4, pin_memory=_pin)
 
         if args.test_csv_dir:
             test_dataset = CSVDataset(csv_dirs= args.test_csv_dir, file_list_path=args.file_list_path, class_idx=args.class_idx, transform=None, is_predict_dataset=False)
-            test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=True)
+            test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=True,
+                                     num_workers=4, pin_memory=_pin)
         else:
             test_loader = None
 
@@ -1566,7 +1569,8 @@ def main():
 
             model=load_model_parameters(model,model_parameters_path=args.task_model,device=args.device)
 
-            test_loader = DataLoader(predict_dataset, batch_size=args.batch_size, shuffle=False,collate_fn=collate_fn)
+            test_loader = DataLoader(predict_dataset, batch_size=args.batch_size, shuffle=False, collate_fn=collate_fn,
+                                     num_workers=4, pin_memory=(str(args.device) != 'cpu'))
 
             if method=='predict':
                 predict(args=args,

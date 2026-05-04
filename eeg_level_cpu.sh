@@ -77,7 +77,8 @@ for SLOWING_dataset in "${SLOWING_datasets[@]}"; do
             --dataset ${SLOWING_dataset} \
             --task_model checkpoints/${SLOWING_dataset}_EEGlevel.pth \
             --test_csv_dir ${result_dir}/pred_SLOWING_1sStep \
-            --result_dir ${result_dir}
+            --result_dir ${result_dir} \
+            --device cpu
 done
 
 
@@ -110,7 +111,8 @@ echo "$password" | sudo -S  $(which python) EEG_level_head.py \
           --dataset BS \
           --task_model checkpoints/BS_EEGlevel.pth \
           --test_csv_dir ${result_dir}/pred_BS_1sStep  \
-          --result_dir ${result_dir}
+          --result_dir ${result_dir} \
+          --device cpu
 
 
 
@@ -145,7 +147,8 @@ for FOC_GEN_SPIKES_dataset in "${FOC_GEN_SPIKES_datasets[@]}"; do
             --dataset ${FOC_GEN_SPIKES_dataset} \
             --task_model checkpoints/${FOC_GEN_SPIKES_dataset}_EEGlevel.pth \
             --test_csv_dir ${result_dir}/pred_FOCGENSPIKES_1sStep \
-            --result_dir ${result_dir}
+            --result_dir ${result_dir} \
+            --device cpu
 done
 
 
@@ -179,7 +182,8 @@ echo "$password" | sudo -S  $(which python) EEG_level_head.py \
           --task_model checkpoints/SPIKES_EEGlevel.pth \
           --test_csv_dir ${result_dir}/pred_SPIKES_1sStep  \
           --result_dir ${result_dir} \
-          --align_spike_detection_and_location
+          --align_spike_detection_and_location \
+          --device cpu
 
 
 # IIIC
@@ -213,7 +217,8 @@ for IIIC_dataset in "${IIIC_datasets[@]}"; do
             --dataset ${IIIC_dataset} \
             --task_model checkpoints/${IIIC_dataset}_EEGlevel.pth \
             --test_csv_dir ${result_dir}/pred_IIIC_1sStep \
-            --result_dir ${result_dir}
+            --result_dir ${result_dir} \
+            --device cpu
 done
 
 
@@ -243,7 +248,8 @@ echo password | sudo -S $(which python)  EEG_level_head.py \
         --mode predict \
         --dataset SLEEPPSG \
         --test_csv_dir  ${result_dir}/pred_SLEEPPSG_1sStep \
-        --result_dir  ${result_dir}
+        --result_dir  ${result_dir} \
+        --device cpu
 
 
 # Sleep 3 stage
@@ -273,7 +279,8 @@ echo "$password" | sudo -S $(which python)  EEG_level_head.py \
         --mode predict \
         --dataset SLEEP3stages \
         --test_csv_dir  ${result_dir}/pred_SLEEP3stages_1sStep \
-        --result_dir  ${result_dir}
+        --result_dir  ${result_dir} \
+        --device cpu
 
 
 
